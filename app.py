@@ -6,7 +6,6 @@ import csv
 import mysql.connector
 import datetime
 from datetime import timedelta
-import schedule
 import time
 import random
 import json
@@ -18,10 +17,10 @@ from base64 import b64encode
 app = Flask(__name__)
 
 db = mysql.connector.connect(
-        host="localhost",
-        user="id15103051_root",
-        passwd="Ilovetheworld@99",
-        database="id15103051_kudzi"
+        host="WesleyMambinge.mysql.pythonanywhere-services.com",
+        user="WesleyMambinge",
+        passwd="Ilovetheworld99",
+        database="WesleyMambinge$kudzi"
     )
 mycursor = db.cursor()
 
